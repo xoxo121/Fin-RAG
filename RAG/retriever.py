@@ -14,7 +14,7 @@ from RAG.hyde import HyDEGenerator
 
 load_dotenv()
 
-INDEX_DIR = r"C:\Users\rahul\OneDrive\Documents\Artificial_Intelligence\LLM\Sarvam\Financial_RAG\RAG\indexes"
+INDEX_DIR = ""
 INDEX_NAME = "faiss_index"
 EMBEDDING_MODEL = "sentence-transformers/all-mpnet-base-v2"
 
