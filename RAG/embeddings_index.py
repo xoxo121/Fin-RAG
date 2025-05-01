@@ -7,9 +7,9 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.docstore.in_memory import InMemoryDocstore
 from langchain_community.vectorstores import FAISS
 
-BASE_PATH = Path(r"C:\Users\rahul\OneDrive\Documents\Artificial_Intelligence\LLM\Sarvam\Financial_RAG\Parser\processed_data")
+BASE_PATH = Path()
 EMBEDDING_MODEL = "sentence-transformers/all-mpnet-base-v2"
-INDEX_DIR = Path(r"C:\Users\rahul\OneDrive\Documents\Artificial_Intelligence\LLM\Sarvam\Financial_RAG\RAG\indexes")
+INDEX_DIR = Path()
 INDEX_NAME = "faiss_index"
 
 # Mapping from company codes to company names
